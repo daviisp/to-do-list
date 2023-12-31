@@ -1,0 +1,35 @@
+.card {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-buttons button {
+  background-color: #414141;  
+  color: #fff;
+  border: none;
+  opacity: .8;
+  transition: .4s;
+  opacity: .8;
+  padding: 10px 15px;
+}
+
+.card-buttons button:hover {
+    opacity: 1;
+}
+
+.card-buttons button:hover {
+    transform: scale(1.05);
+}
+
+.done {
+    background-color: #414141;
+}
